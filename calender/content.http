@@ -1,0 +1,12 @@
+### find all content
+GET https://localhost:8080/api/content
+
+### Get content
+GET https://localhost:8080/api/content
+
+### create new content
+
+POST https://localhost:8080/api/content
+Content-Type: application/json
+
+
