@@ -1,15 +1,16 @@
 package com.Hbaraki.calender.model;
 
 import java.time.LocalDateTime;
-import org.springframework.data.annotation.Id;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 
 import javax.validation.constraints.NotBlank;
 
-
+@Entity
 public record Content(
-        @Id
-
-        Integer id,
+        @Id Integer id,
         @NotBlank
         String title,
         String desc,
